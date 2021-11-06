@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="fc">
+      <UniqueIdentifier>{da5d800e-e9c3-4add-86dd-ef8caf3a01a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\cpu">
+      <UniqueIdentifier>{c1d9da61-dfa9-4a6f-a695-5fc6e4b59669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\cartridge">
+      <UniqueIdentifier>{5dda0e94-fa6c-434f-a4ab-f968e695c651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\controller">
+      <UniqueIdentifier>{b6def780-ca95-4dd8-9f1c-316042ff8c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\manwindow">
+      <UniqueIdentifier>{b0eae8e9-037f-454e-be54-4a738d908e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\mapper">
+      <UniqueIdentifier>{a2a515da-cee0-4095-9575-49332d3aacfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\ppu">
+      <UniqueIdentifier>{a4a6078e-5c6b-4387-ba77-ea17e886bae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\cpu\cpu_ram">
+      <UniqueIdentifier>{c4cd509c-4f1b-4d33-8e25-d8967f7e10c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fc\ppu\ppu_bus">
+      <UniqueIdentifier>{7a4f03db-0301-4e6a-8b58-2e1d598245bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>fc</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu.cpp">
+      <Filter>fc\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="cartridge.cpp">
+      <Filter>fc\cartridge</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_ram.cpp">
+      <Filter>fc\cpu\cpu_ram</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>fc\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>fc\manwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\mapper_0.cpp">
+      <Filter>fc\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\mapper_1.cpp">
+      <Filter>fc\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\mapper_2.cpp">
+      <Filter>fc\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="ppu.cpp">
+      <Filter>fc\ppu</Filter>
+    </ClCompile>
+    <ClCompile Include="ppu_bus.cpp">
+      <Filter>fc\ppu\ppu_bus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="colors_map.h">
+      <Filter>fc</Filter>
+    </ClInclude>
+    <ClInclude Include="total.h">
+      <Filter>fc</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.h">
+      <Filter>fc\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="cartridge.h">
+      <Filter>fc\cartridge</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_ram.h">
+      <Filter>fc\cpu\cpu_ram</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>fc\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\mapper_0.h">
+      <Filter>fc\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\mapper_1.h">
+      <Filter>fc\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\mapper_2.h">
+      <Filter>fc\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\mapper_base.h">
+      <Filter>fc\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="ppu.h">
+      <Filter>fc\ppu</Filter>
+    </ClInclude>
+    <ClInclude Include="ppu_bus.h">
+      <Filter>fc\ppu\ppu_bus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mainwindow.h">
+      <Filter>fc\manwindow</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mainwindow.ui">
+      <Filter>fc\manwindow</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
