@@ -3,12 +3,14 @@
 #include <fstream>
 #include <QDebug>
 #include <string.h>
+#include <QFileInfo>
 
 using namespace std;
 
-void Cartridge::read_from_file(string input_file, int fsize)
+void Cartridge::read_from_file(string input_file)
 {
 	//1.
+	int fsize = QFileInfo("tank.nes").size();
 	uint8_t* nes_data = new uint8_t[fsize];
 	ifstream stream(input_file, ios::in | ios::binary);
 	if (!stream) {

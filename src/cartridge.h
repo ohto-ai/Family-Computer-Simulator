@@ -17,7 +17,7 @@ public:
 	uint8_t mapper_id; //
 	bool has_added_ram; //
 	Mapper* mapper_ptr; //
-	void read_from_file(string input_file, int fsize);
+	void read_from_file(string input_file);
 };
 
 #endif

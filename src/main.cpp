@@ -18,9 +18,7 @@ int main(int argc, char* argv[])
 {
 	QApplication a(argc, argv);
 	//1.
-	cartridge.read_from_file("tank.nes", 40976);
-	//cartridge.read_from_file("../Data/yx.nes", 262288);
-	//cartridge.read_from_file("../Data/Contra (U).nes", 131088);
+	cartridge.read_from_file("tank.nes");
 	//2.
 	Cpu.reset();
 	Ppu2.reset();
