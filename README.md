@@ -28,8 +28,6 @@
 2. 在 Qt VS Tools 中确认 Qt 版本为 `5.15.2_msvc2019_64`。
 3. 选择 `Release | x64` 或 `Debug | x64` 构建并运行。
 
-也可以在 Qt Creator 中打开 `src/FCWin.pro.user` 对应的工程配置进行构建。
-
 ## 运行
 
 程序启动时会从**当前工作目录**读取 `tank.nes`：
